@@ -1,0 +1,29 @@
+{
+  "name": "nodesimpleservice",
+  "version": "1.0.0",
+  "description": "a simple service doing authorization and showing list of messages",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugenmorozov/nodeSimpleService.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "evgeniy morozov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eugenmorozov/nodeSimpleService/issues"
+  },
+  "homepage": "https://github.com/eugenmorozov/nodeSimpleService#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15"
+  }
+}
